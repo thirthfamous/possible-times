@@ -9,5 +9,5 @@ import (
 
 func TestPossibleTimes(t *testing.T) {
 	totalPossibility := services.PossibleTimes([]int{1, 2, 3, 4})
-	assert.Equal(t, totalPossibility, 18)
+	assert.Equal(t, totalPossibility, 60)
 }
